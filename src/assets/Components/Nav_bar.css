@@ -1,0 +1,105 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(to right, #ff9800, #ffb74d);
+  padding: 10px 30px;
+  height: 60px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  flex-wrap: wrap;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.left i {
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+}
+
+.left h2 {
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 20px;
+  padding: 5px 10px;
+  flex: 1;
+  max-width: 600px;
+  margin: 0 20px;
+}
+
+.center input {
+  border: none;
+  outline: none;
+  padding: 5px 10px;
+  font-size: 14px;
+  flex: 1;
+}
+
+.center button {
+  background: transparent;
+  border: none;
+  color: #ff9800;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.right button {
+  background-color: white;
+  color: #ff9800;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.right button:hover {
+  background-color: #ffe0b2;
+}
+
+/* 📱 Responsive styling */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: stretch;
+    height: auto;
+    padding: 10px;
+  }
+
+  .center {
+    margin: 10px 0;
+    width: 100%;
+  }
+
+  .right {
+    align-self: flex-end;
+    margin-top: 10px;
+  }
+
+  .left {
+    justify-content: space-between;
+    width: 100%;
+  }
+}

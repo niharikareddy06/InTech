@@ -1,0 +1,157 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #fefefe;
+}
+
+.Navbar {
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  padding: 10px 10%;
+  background: linear-gradient(90deg, #ff7e5f, #feb47b); 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+.search_bar {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.search_bar input {
+  border: none;
+  padding: 10px 200px;
+  outline: none;
+  font-size: 1rem;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #fefefe;
+}
+
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10%;
+  background: linear-gradient(90deg, #ff7e5f, #feb47b); /* orangy gradient */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+.search_bar {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.search_bar input {
+  border: none;
+  padding: 10px 250px;
+  outline: none;
+  font-size: 1rem;
+}
+
+.search_bar button {
+  background-color: #ff8c42;
+  border-radius: 50%;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.search_bar button:hover {
+  background-color: #e57c33;
+}
+
+#create_button {
+  padding: 10px 20px;
+  background-color: white;
+  border: 2px solid #ff8c42;
+  color: #ff8c42;
+  border-radius: 25px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#create_button:hover {
+  background-color: #ff8c42;
+  color: white;
+}
+
+
+.search_bar button:hover {
+  background-color: #e57c33;
+}
+
+#create_button {
+  padding: 10px 20px;
+  background-color: white;
+  border: 2px solid #ff8c42;
+  color: #ff8c42;
+  border-radius: 25px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#create_button:hover {
+  background-color: #ff8c42;
+  color: white;
+}
+.menu_bar {
+  display: flex;
+  align-items: center;
+  margin-left: 0px;
+}
+
+.menu_bar button {
+  background: none;
+  border: none;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+  padding: 8px;
+  transition: background 0.2s ease, transform 0.2s ease;
+  border-radius: 8px;
+}
+
+.menu_bar button:hover {
+  background: rgba(255, 255, 255, 0.15);
+  transform: scale(1.05);
+}
+
